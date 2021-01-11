@@ -1,0 +1,13 @@
+.message-wrapper{
+    text-align: center;
+}
+
+.message-wrapper p{
+    color: #1a508b;
+}
+
+@media(max-width:800px){
+    .message-wrapper p{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,32 @@
+.input-wrapper{
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.input-wrapper .form-control{
+    box-shadow: 0 1px 4px #ccc;
+    background-color: white;
+    border-radius: 2px;
+    padding: 2rem 4rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.input-wrapper .submit-btn{
+    margin: 1.5rem auto;
+    margin-bottom: 1.5rem;
+}
+
+@media(max-width:800px){
+    .input-wrapper .form-control{
+        padding: 2rem;
+    }
+     .input-wrapper .form-control .textfield{
+        font-size: 0.8rem;
+    }
+    .input-wrapper .submit-btn{
+        font-size: 0.6rem;
+    }
+}
