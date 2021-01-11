@@ -16,7 +16,7 @@ export default function InputAdornments() {
 
     const onFormSubmit = async() => {
         try{
-            const response = await axios.post('https://git.heroku.com/short-er.git',{url})
+            const response = await axios.post('https://short-er.herokuapp.com/',{url})
             const short = response.config.url.slice(7)
             if(response.status === 200){
                 setMessage(short+'/'+response.data.url.shortUrl) 
